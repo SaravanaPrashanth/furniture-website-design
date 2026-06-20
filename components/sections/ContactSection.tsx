@@ -29,7 +29,7 @@ const CONTACT_ITEMS = [
 ]
 
 /**
- * Contact section — address, phone, hours, and CTA 3 (Chat on WhatsApp).
+ * Contact section - address, phone, hours, and CTA 3 (Chat on WhatsApp).
  */
 export function ContactSection() {
   const { ref, inView } = useInView<HTMLDivElement>({ threshold: 0.08 })

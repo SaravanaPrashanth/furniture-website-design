@@ -47,7 +47,7 @@ export const metadata: Metadata = {
         url: '/images/og-image.jpg',
         width: 1200,
         height: 630,
-        alt: 'Sri Vetrivel Furnitures — Handcrafted Teak Furniture Chennai',
+        alt: 'Sri Vetrivel Furnitures - Handcrafted Teak Furniture Chennai',
       },
     ],
   },

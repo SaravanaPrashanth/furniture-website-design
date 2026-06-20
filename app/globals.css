@@ -2,7 +2,7 @@
 @import 'tw-animate-css';
 @import 'shadcn/tailwind.css';
 
-/* ─── Sri Vetrivel Furnitures — Design Token System ─── */
+/* ─── Sri Vetrivel Furnitures - Design Token System ─── */
 
 @theme inline {
   /* Fonts */
@@ -10,7 +10,7 @@
   --font-serif:  'Playfair Display', 'Playfair Display Fallback';
   --font-mono:   'Geist Mono', 'Geist Mono Fallback';
 
-  /* Brand Palette — 5 tokens, dark theme only */
+  /* Brand Palette - 5 tokens, dark theme only */
   --color-background: #141210;
   --color-surface:    #1e1a17;
   --color-accent:     #8B5E3C;
@@ -75,6 +75,7 @@
   h1, h2, h3 {
     @apply font-serif;
     text-wrap: balance;
+    letter-spacing: 0.02em;
   }
 
   p, span, li {

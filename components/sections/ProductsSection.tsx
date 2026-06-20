@@ -9,7 +9,7 @@ import { PRODUCTS, PRODUCT_CATEGORIES } from '@/lib/products'
 import { cn } from '@/lib/utils'
 
 /**
- * Products section — tabbed by category (Sofa Sets / Bedroom / Dining).
+ * Products section - tabbed by category (Sofa Sets / Bedroom / Dining).
  * Section-level CTA 2 below the grid.
  */
 export function ProductsSection() {
@@ -31,7 +31,7 @@ export function ProductsSection() {
           <SectionHeader
             eyebrow="Our Collection"
             heading="Furniture Built to Last Generations"
-            subtext="Every piece is handcrafted from 100% solid wood. Browse our most popular categories below — custom sizes available on all items."
+            subtext="Every piece is handcrafted from 100% solid wood. Browse our most popular categories below - custom sizes available on all items."
             id="products-heading"
           />
         </div>
@@ -63,7 +63,7 @@ export function ProductsSection() {
         <div className="flex flex-col items-center gap-4 pt-4">
           <p className="font-sans text-muted-foreground text-sm text-center max-w-md">
             Don&apos;t see exactly what you need? We build fully custom pieces
-            — just send us your requirements on WhatsApp.
+            - just send us your requirements on WhatsApp.
           </p>
           <WhatsAppButton
             label="Enquire About Any Piece"

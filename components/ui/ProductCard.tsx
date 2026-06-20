@@ -10,7 +10,7 @@ interface ProductCardProps {
 }
 
 /**
- * Individual product card — image, name, badge, description, CTA 2.
+ * Individual product card - image, name, badge, description, CTA 2.
  * Hover: subtle scale + accent border reveal.
  */
 export function ProductCard({ product, className }: ProductCardProps) {
@@ -18,8 +18,8 @@ export function ProductCard({ product, className }: ProductCardProps) {
     <article
       aria-label={product.name}
       className={cn(
-        'group flex flex-col bg-surface border border-border rounded overflow-hidden',
-        'hover:border-accent/50 hover:scale-[1.02] transition-all duration-300',
+        'group flex flex-col bg-surface border border-accent/20 rounded overflow-hidden shadow-md',
+        'hover:border-accent/60 hover:shadow-lg hover:scale-[1.02] transition-all duration-300',
         className,
       )}
     >

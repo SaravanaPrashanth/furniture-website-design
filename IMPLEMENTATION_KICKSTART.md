@@ -1,57 +1,57 @@
-# Sri Vetrivel Furnitures — Implementation Kickstart
+# Sri Vetrivel Furnitures - Implementation Kickstart
 
 > Last updated: 2026-06-20  
-> Status: **All 6 Phases Complete — Build Ready for Browser QA**
+> Status: **All 6 Phases Complete - Build Ready for Browser QA**
 
 ---
 
 ## Build Progress Tracker
 
-### Phase 1 — Foundation & Design System ✅ COMPLETE
-- [x] `app/globals.css` — 5 design tokens, font vars, marquee & fade-in animations, base body styles
-- [x] `app/layout.tsx` — Inter + Playfair Display fonts, full SEO metadata, Open Graph, JSON-LD (FurnitureStore + WebSite schema), viewport
-- [x] `app/page.tsx` — scaffolded with section placeholders, placeholder visual for Phase 1
-- [x] `lib/products.ts` — 6 products across 3 categories with WhatsApp messages
-- [x] `lib/faqs.ts` — 5 FAQs + FAQPage JSON-LD export
-- [x] `lib/testimonials.ts` — 3 customer testimonials
-- [x] `hooks/useScrollY.ts` — passive scroll listener, used by Navbar + BackToTop
-- [x] `hooks/useInView.ts` — IntersectionObserver wrapper for fade-in-up animations
-- [x] `components/ui/SectionHeader.tsx` — reusable eyebrow + h2 + subtext block
-- [x] `components/ui/WhatsAppButton.tsx` — reusable CTA button (solid + outline variants, 3 sizes)
+### Phase 1 - Foundation & Design System ✅ COMPLETE
+- [x] `app/globals.css` - 5 design tokens, font vars, marquee & fade-in animations, base body styles
+- [x] `app/layout.tsx` - Inter + Playfair Display fonts, full SEO metadata, Open Graph, JSON-LD (FurnitureStore + WebSite schema), viewport
+- [x] `app/page.tsx` - scaffolded with section placeholders, placeholder visual for Phase 1
+- [x] `lib/products.ts` - 6 products across 3 categories with WhatsApp messages
+- [x] `lib/faqs.ts` - 5 FAQs + FAQPage JSON-LD export
+- [x] `lib/testimonials.ts` - 3 customer testimonials
+- [x] `hooks/useScrollY.ts` - passive scroll listener, used by Navbar + BackToTop
+- [x] `hooks/useInView.ts` - IntersectionObserver wrapper for fade-in-up animations
+- [x] `components/ui/SectionHeader.tsx` - reusable eyebrow + h2 + subtext block
+- [x] `components/ui/WhatsAppButton.tsx` - reusable CTA button (solid + outline variants, 3 sizes)
 - [x] shadcn components installed: `sheet`, `accordion`, `tabs`, `badge`, `separator`
 
-### Phase 2 — Navigation ✅ COMPLETE
-- [x] `components/navbar/Navbar.tsx` — sticky, scroll-aware transparency, desktop layout
-- [x] `components/navbar/NavLinks.tsx` — horizontal (desktop) + vertical (drawer) variants
-- [x] `components/navbar/MobileMenu.tsx` — hamburger button + Sheet drawer with nav links + CTA
+### Phase 2 - Navigation ✅ COMPLETE
+- [x] `components/navbar/Navbar.tsx` - sticky, scroll-aware transparency, desktop layout
+- [x] `components/navbar/NavLinks.tsx` - horizontal (desktop) + vertical (drawer) variants
+- [x] `components/navbar/MobileMenu.tsx` - hamburger button + Sheet drawer with nav links + CTA
 - [x] `useScrollY` hook integrated for scroll threshold at 80px
 - [x] Navbar wired into `app/page.tsx`
 
-### Phase 3 — Hero Section ✅ COMPLETE
-- [x] `components/sections/HeroSection.tsx` — parallax bg, H1, subtext, CTA 1, trust badge grid (desktop) + horizontal scroll (mobile)
-- [x] `components/sections/TrustBar.tsx` — infinite CSS marquee strip
+### Phase 3 - Hero Section ✅ COMPLETE
+- [x] `components/sections/HeroSection.tsx` - parallax bg, H1, subtext, CTA 1, trust badge grid (desktop) + horizontal scroll (mobile)
+- [x] `components/sections/TrustBar.tsx` - infinite CSS marquee strip
 - [x] Hero background image generated (`/public/images/hero-bg.png`)
 - [x] `hooks/useInView.ts` integrated for staggered fade-in-up on hero content
 
-### Phase 4 — Products Section ✅ COMPLETE
-- [x] `components/sections/ProductsSection.tsx` — shadcn Tabs, section CTA 2, fade-in-up
-- [x] `components/ui/ProductCard.tsx` — image, badge, description, per-card WhatsApp CTA
-- [x] `components/ui/ProductGrid.tsx` — responsive 1/2/3-col grid
+### Phase 4 - Products Section ✅ COMPLETE
+- [x] `components/sections/ProductsSection.tsx` - shadcn Tabs, section CTA 2, fade-in-up
+- [x] `components/ui/ProductCard.tsx` - image, badge, description, per-card WhatsApp CTA
+- [x] `components/ui/ProductGrid.tsx` - responsive 1/2/3-col grid
 - [x] All 6 product images generated in `/public/images/products/`
 - [x] `lib/products.ts` image paths updated to `.png`
 
-### Phase 5 — Why Us, Testimonials & FAQ ✅ COMPLETE
-- [x] `components/sections/WhyUsSection.tsx` — 3 guarantee cards, quality USP copy
-- [x] `components/ui/GuaranteeCard.tsx` — icon + title + description card
-- [x] `components/sections/TestimonialsSection.tsx` — 3-column static grid
-- [x] `components/ui/TestimonialCard.tsx` — star rating, quote, author initials avatar
-- [x] `components/sections/FaqSection.tsx` — shadcn Accordion, all collapsed, FAQPage JSON-LD injected
+### Phase 5 - Why Us, Testimonials & FAQ ✅ COMPLETE
+- [x] `components/sections/WhyUsSection.tsx` - 3 guarantee cards, quality USP copy
+- [x] `components/ui/GuaranteeCard.tsx` - icon + title + description card
+- [x] `components/sections/TestimonialsSection.tsx` - 3-column static grid
+- [x] `components/ui/TestimonialCard.tsx` - star rating, quote, author initials avatar
+- [x] `components/sections/FaqSection.tsx` - shadcn Accordion, all collapsed, FAQPage JSON-LD injected
 
-### Phase 6 — Contact, Footer & Polish ✅ COMPLETE
-- [x] `components/sections/ContactSection.tsx` — address, hours, phone, CTA 3
-- [x] `components/footer/Footer.tsx` — 3-col layout, dynamic year, brand story
-- [x] `components/ui/BackToTop.tsx` — fixed button, appears at 300px scroll, smooth scroll
-- [x] `app/page.tsx` — all 10 sections composed and exported
+### Phase 6 - Contact, Footer & Polish ✅ COMPLETE
+- [x] `components/sections/ContactSection.tsx` - address, hours, phone, CTA 3
+- [x] `components/footer/Footer.tsx` - 3-col layout, dynamic year, brand story
+- [x] `components/ui/BackToTop.tsx` - fixed button, appears at 300px scroll, smooth scroll
+- [x] `app/page.tsx` - all 10 sections composed and exported
 - [x] Final plan status updated
 
 ---
@@ -69,24 +69,24 @@
 | WhatsApp CTA | +91 97100 25248 |
 | Phone (alt) | +91 88387 55077 |
 | Hours | Mon–Fri: 10 AM – 9 PM · Sat–Sun: 11 AM – 7 PM |
-| USP | 100% solid wood — Kerala teak & premium hardwoods. No compromised materials. |
+| USP | 100% solid wood - Kerala teak & premium hardwoods. No compromised materials. |
 | Primary conversion | WhatsApp enquiry (wa.me/919710025248) |
 
 ---
 
 ## 2. Design Token System
 
-### 2.1 Color Palette (5 tokens total — dark theme)
+### 2.1 Color Palette (5 tokens total - dark theme)
 
 | Token | Hex | Role |
 |---|---|---|
-| `--color-background` | `#141210` | Page & card backgrounds — near-black with a warm brown undertone |
+| `--color-background` | `#141210` | Page & card backgrounds - near-black with a warm brown undertone |
 | `--color-surface` | `#1e1a17` | Elevated surfaces (nav, cards, footer, FAQ items) |
-| `--color-accent` | `#8B5E3C` | Teak brown — ALL CTAs, borders, highlights, icons, links |
-| `--color-foreground` | `#F0EAE2` | Primary text — warm cream, never pure white |
+| `--color-accent` | `#8B5E3C` | Teak brown - ALL CTAs, borders, highlights, icons, links |
+| `--color-foreground` | `#F0EAE2` | Primary text - warm cream, never pure white |
 | `--color-muted` | `#9A8F85` | Secondary/muted text, placeholders, labels |
 
-> **Rule:** Every interactive element (buttons, links, hover borders, focus rings, badge text) uses `--color-accent`. No purple. No blue. Accent appears on dark surfaces only — never on light backgrounds.
+> **Rule:** Every interactive element (buttons, links, hover borders, focus rings, badge text) uses `--color-accent`. No purple. No blue. Accent appears on dark surfaces only - never on light backgrounds.
 
 #### CSS Token Declaration (globals.css)
 
@@ -138,13 +138,13 @@
 
 ## 3. WhatsApp CTA Strategy
 
-Three CTA placements minimum — each contextually distinct:
+Three CTA placements minimum - each contextually distinct:
 
 | # | Location | Label | Context |
 |---|---|---|---|
-| CTA 1 | Hero section | "Get a Free Quote on WhatsApp" | Primary conversion — high intent visitors |
+| CTA 1 | Hero section | "Get a Free Quote on WhatsApp" | Primary conversion - high intent visitors |
 | CTA 2 | Products section (mid-page) | "Enquire About This Piece" | On each product card (or a section-level CTA below the grid) |
-| CTA 3 | Footer / Contact section | "Chat With Us on WhatsApp" | Bottom-of-page conversion — visitors who scrolled to the end |
+| CTA 3 | Footer / Contact section | "Chat With Us on WhatsApp" | Bottom-of-page conversion - visitors who scrolled to the end |
 
 All CTA buttons share the same pattern: `bg-accent text-foreground font-semibold px-6 py-3 rounded hover:brightness-110 transition`.  
 WhatsApp icon (Lucide `MessageCircle` or SVG) precedes every CTA label.
@@ -196,7 +196,7 @@ keywords: solid wood furniture Chennai, teak furniture Ayanavaram,
 
 ### 4.4 AEO (Answer Engine Optimization)
 
-- FAQ section uses `schema.org/FAQPage` JSON-LD — answers the exact queries Google AI Overviews pull
+- FAQ section uses `schema.org/FAQPage` JSON-LD - answers the exact queries Google AI Overviews pull
 - Each section heading is phrased as a natural search query where appropriate
 - `<article>` and `<section>` semantics throughout
 - Product names use full descriptive copy ("Kerala Teak Sofa Set") not short labels
@@ -205,7 +205,7 @@ keywords: solid wood furniture Chennai, teak furniture Ayanavaram,
 
 - Next.js Image component for all product images (`priority` on hero)
 - `font-display: swap` for both Google Fonts
-- Minimal third-party scripts — no analytics trackers in Phase 1
+- Minimal third-party scripts - no analytics trackers in Phase 1
 - `viewport` meta: `width=device-width, initial-scale=1`
 
 ---
@@ -273,7 +273,7 @@ Each file must remain under 600 lines. Components are organized by concern.
 
 | File | Responsibility |
 |---|---|
-| `components/navbar/Navbar.tsx` | Full navbar shell — sticky logic, scroll state |
+| `components/navbar/Navbar.tsx` | Full navbar shell - sticky logic, scroll state |
 | `components/navbar/NavLinks.tsx` | Desktop anchor links with smooth scroll |
 | `components/navbar/MobileMenu.tsx` | Hamburger button + Sheet drawer (shadcn Sheet) |
 
@@ -306,7 +306,7 @@ Each file must remain under 600 lines. Components are organized by concern.
 
 | File | Responsibility |
 |---|---|
-| `hooks/useScrollY.ts` | Returns current scrollY — used by Navbar and BackToTop |
+| `hooks/useScrollY.ts` | Returns current scrollY - used by Navbar and BackToTop |
 | `hooks/useInView.ts` | IntersectionObserver wrapper for fade-in animations |
 | `lib/products.ts` | Static product data array (name, category, badge, image path) |
 | `lib/faqs.ts` | Static FAQ data array (question + answer) |
@@ -314,7 +314,7 @@ Each file must remain under 600 lines. Components are organized by concern.
 
 ---
 
-## 7. Product Data (Static — lib/products.ts)
+## 7. Product Data (Static - lib/products.ts)
 
 6 products across 3 tab categories:
 
@@ -329,15 +329,15 @@ Each file must remain under 600 lines. Components are organized by concern.
 
 ---
 
-## 8. FAQ Data (Static — lib/faqs.ts)
+## 8. FAQ Data (Static - lib/faqs.ts)
 
 | # | Question | Key answer points |
 |---|---|---|
-| 1 | What wood types do you use? | Kerala teak, sheesham, premium hardwoods — no MDF or compressed wood |
-| 2 | Do you offer custom sizes? | Yes — all pieces fully customisable, WhatsApp for quote |
+| 1 | What wood types do you use? | Kerala teak, sheesham, premium hardwoods - no MDF or compressed wood |
+| 2 | Do you offer custom sizes? | Yes - all pieces fully customisable, WhatsApp for quote |
 | 3 | How is delivery handled? | In-house delivery team, pan-Chennai. Delivery charges applicable based on location. |
-| 4 | Can I visit the showroom? | Yes — workshop & showroom same location. Mon–Fri 10AM–9PM, Sat–Sun 11AM–7PM |
-| 5 | How do I place an order? | WhatsApp us at +91 97100 25248 — we'll confirm specs, timeline, and pricing |
+| 4 | Can I visit the showroom? | Yes - workshop & showroom same location. Mon–Fri 10AM–9PM, Sat–Sun 11AM–7PM |
+| 5 | How do I place an order? | WhatsApp us at +91 97100 25248 - we'll confirm specs, timeline, and pricing |
 
 ---
 
@@ -345,7 +345,7 @@ Each file must remain under 600 lines. Components are organized by concern.
 
 | Element | Mobile (<640px) | Tablet (640–1024px) | Desktop (>1024px) |
 |---|---|---|---|
-| Navbar links | Hidden — hamburger only | Hidden — hamburger only | Visible inline |
+| Navbar links | Hidden - hamburger only | Hidden - hamburger only | Visible inline |
 | Mobile drawer | Full-width Sheet | Full-width Sheet | N/A |
 | Hero | Single column, text centered | Single column, text left | Two-column split |
 | Product grid | 1 column | 2 columns | 3 columns |
@@ -357,35 +357,35 @@ Each file must remain under 600 lines. Components are organized by concern.
 
 ## 10. Implementation Phases
 
-### Phase 1 — Foundation & Design System
+### Phase 1 - Foundation & Design System
 **Goal:** Project scaffolding, design tokens, fonts, globals, root layout, SEO metadata, JSON-LD.
-- `app/layout.tsx` — fonts (Playfair Display + Inter), metadata, JSON-LD, html class
-- `app/globals.css` — all 5 design tokens, font vars, base body styles
-- `app/page.tsx` — scaffold with section placeholder imports
+- `app/layout.tsx` - fonts (Playfair Display + Inter), metadata, JSON-LD, html class
+- `app/globals.css` - all 5 design tokens, font vars, base body styles
+- `app/page.tsx` - scaffold with section placeholder imports
 - Confirm shadcn components needed: Sheet, Accordion, Tabs
 - Install all required shadcn components in one batch
 
-### Phase 2 — Navigation
+### Phase 2 - Navigation
 **Goal:** Sticky navbar with scroll-aware transparency, desktop links, mobile hamburger drawer.
 - `Navbar.tsx`, `NavLinks.tsx`, `MobileMenu.tsx`
 - `hooks/useScrollY.ts`
 - Smooth-scroll anchor behavior for `#products`, `#why-us`, `#faqs`, `#contact`
 
-### Phase 3 — Hero Section
+### Phase 3 - Hero Section
 **Goal:** Full-height hero with parallax background, headline, CTA 1, trust badges.
 - `HeroSection.tsx`
 - Generate hero product image (premium teak sofa in warm studio light)
 - `hooks/useInView.ts` for staggered fade-in
 - Parallax layer using scroll offset
 
-### Phase 4 — Products Section
+### Phase 4 - Products Section
 **Goal:** Tabbed product showcase with cards, generated images, per-card CTA 2.
-- `lib/products.ts` — static data
+- `lib/products.ts` - static data
 - `ProductCard.tsx`, `ProductGrid.tsx`, `ProductsSection.tsx`
 - Generate all 6 product images
 - `WhatsAppButton.tsx` reusable component
 
-### Phase 5 — Why Us, Testimonials & FAQ
+### Phase 5 - Why Us, Testimonials & FAQ
 **Goal:** Quality USP section, testimonials grid, accordion FAQ with structured data.
 - `WhyUsSection.tsx`, `GuaranteeCard.tsx`
 - `TestimonialsSection.tsx`, `TestimonialCard.tsx`
@@ -393,10 +393,10 @@ Each file must remain under 600 lines. Components are organized by concern.
 - `FaqSection.tsx` with `lib/faqs.ts`, FAQPage JSON-LD injection
 - `TrustBar.tsx` marquee strip
 
-### Phase 6 — Contact, Footer & Polish
+### Phase 6 - Contact, Footer & Polish
 **Goal:** Contact section with CTA 3, dynamic footer, back-to-top, final animation pass.
-- `ContactSection.tsx` — address, hours, phone, CTA 3
-- `Footer.tsx` — dynamic `new Date().getFullYear()`
+- `ContactSection.tsx` - address, hours, phone, CTA 3
+- `Footer.tsx` - dynamic `new Date().getFullYear()`
 - `BackToTop.tsx`
 - `SectionHeader.tsx` reusable component audit
 - Final scroll-triggered fade-in pass across all sections
@@ -505,7 +505,7 @@ public/
 - [ ] Mobile hamburger menu opens/closes correctly
 - [ ] All sections have `id` attributes for anchor scroll
 - [ ] Back-to-top appears after 300px scroll
-- [ ] FAQ accordion — all panels collapsed by default
+- [ ] FAQ accordion - all panels collapsed by default
 - [ ] Footer year is dynamic (`new Date().getFullYear()`)
 - [ ] JSON-LD validates at schema.org/validator
 - [ ] No color outside the 5-token palette

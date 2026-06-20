@@ -5,7 +5,7 @@ import { useScrollY } from '@/hooks/useScrollY'
 import { cn } from '@/lib/utils'
 
 /**
- * Fixed back-to-top button — appears after 300px of scroll.
+ * Fixed back-to-top button - appears after 300px of scroll.
  * Smooth scrolls to #top via the scroll-smooth class on <html>.
  */
 export function BackToTop() {

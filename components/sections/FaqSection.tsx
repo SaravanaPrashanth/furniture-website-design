@@ -12,7 +12,7 @@ import { FAQS, FAQ_JSON_LD } from '@/lib/faqs'
 import { cn } from '@/lib/utils'
 
 /**
- * FAQ section — shadcn Accordion with all items collapsed by default.
+ * FAQ section - shadcn Accordion with all items collapsed by default.
  * Injects FAQPage JSON-LD for AEO / Google AI Overviews.
  */
 export function FaqSection() {
@@ -45,7 +45,7 @@ export function FaqSection() {
           />
         </div>
 
-        {/* Accordion — type="single" with no defaultValue means all collapsed */}
+        {/* Accordion - type="single" with no defaultValue means all collapsed */}
         <div
           ref={accordionRef}
           className={cn('fade-in-up', accordionInView && 'in-view')}

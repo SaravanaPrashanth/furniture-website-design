@@ -1,8 +1,9 @@
 /**
- * Sri Vetrivel Furnitures — Landing Page
+ * Sri Vetrivel Furnitures - Landing Page
  * Full section composition. Architecture defined in IMPLEMENTATION_KICKSTART.md §5.
  */
 
+import { Separator } from '@/components/ui/separator'
 import { Navbar } from '@/components/navbar/Navbar'
 import { HeroSection } from '@/components/sections/HeroSection'
 import { TrustBar } from '@/components/sections/TrustBar'
@@ -20,10 +21,15 @@ export default function Page() {
       <Navbar />
       <HeroSection />
       <TrustBar />
+      <Separator className="bg-accent/10" />
       <ProductsSection />
+      <Separator className="bg-accent/10" />
       <WhyUsSection />
+      <Separator className="bg-accent/10" />
       <TestimonialsSection />
+      <Separator className="bg-accent/10" />
       <FaqSection />
+      <Separator className="bg-accent/10" />
       <ContactSection />
       <Footer />
       <BackToTop />

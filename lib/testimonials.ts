@@ -14,7 +14,7 @@ export const TESTIMONIALS: Testimonial[] = [
     location: 'Anna Nagar, Chennai',
     rating: 5,
     quote:
-      'I ordered a full Kerala teak bedroom set — bed, wardrobe, and side tables. The quality is exceptional. The wood grain is beautiful and every joint is immaculate. My family has been using it for three years with zero issues. Highly recommend.',
+      'I ordered a full Kerala teak bedroom set - bed, wardrobe, and side tables. The quality is exceptional. The wood grain is beautiful and every joint is immaculate. My family has been using it for three years with zero issues. Highly recommend.',
     initials: 'KR',
   },
   {
@@ -23,7 +23,7 @@ export const TESTIMONIALS: Testimonial[] = [
     location: 'Adyar, Chennai',
     rating: 5,
     quote:
-      'What sets Sri Vetrivel apart is their honesty about materials. I visited three other furniture shops before coming here — they all used MDF mixed with wood. Here, everything is solid wood, no compromise. The 3+2 sofa we bought is outstanding.',
+      'What sets Sri Vetrivel apart is their honesty about materials. I visited three other furniture shops before coming here - they all used MDF mixed with wood. Here, everything is solid wood, no compromise. The 3+2 sofa we bought is outstanding.',
     initials: 'PS',
   },
   {

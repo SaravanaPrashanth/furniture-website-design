@@ -11,13 +11,13 @@ const GUARANTEES = [
     icon: TreePine,
     title: 'Only Premium Natural Wood',
     description:
-      'We source Kerala teak, sheesham, and select hardwoods — wood with proven grain strength and natural beauty. We never use MDF, plywood, compressed board, or engineered substitutes. What you see is what your furniture is made from.',
+      'We source Kerala teak, sheesham, and select hardwoods - wood with proven grain strength and natural beauty. We never use MDF, plywood, compressed board, or engineered substitutes. What you see is what your furniture is made from.',
   },
   {
     icon: Hammer,
     title: 'Handcrafted by Skilled Artisans',
     description:
-      'Each piece is built by craftsmen with decades of experience in traditional joinery — mortise-and-tenon, dovetail, and dowel joints. No shortcuts, no factory lines. Your furniture is made by hand, one piece at a time.',
+      'Each piece is built by craftsmen with decades of experience in traditional joinery - mortise-and-tenon, dovetail, and dowel joints. No shortcuts, no factory lines. Your furniture is made by hand, one piece at a time.',
   },
   {
     icon: ShieldCheck,
@@ -28,7 +28,7 @@ const GUARANTEES = [
 ]
 
 /**
- * Why Us section — quality USP copy and three guarantee cards.
+ * Why Us section - quality USP copy and three guarantee cards.
  * Answers the key objection: why pay more for solid wood?
  */
 export function WhyUsSection() {
@@ -87,7 +87,7 @@ export function WhyUsSection() {
           style={{ transitionDelay: '300ms' }}
         >
           <p className="font-sans text-muted-foreground text-base leading-relaxed">
-            Visit our Ayanavaram showroom and see the difference firsthand — touch the
+            Visit our Ayanavaram showroom and see the difference firsthand - touch the
             grain, feel the weight, ask us anything. We welcome every visitor whether
             you are ready to order or just exploring.
           </p>

@@ -7,7 +7,7 @@ import { TESTIMONIALS } from '@/lib/testimonials'
 import { cn } from '@/lib/utils'
 
 /**
- * Testimonials section — static 3-card grid.
+ * Testimonials section - static 3-card grid.
  * No carousel library needed; static layout is robust and accessible.
  */
 export function TestimonialsSection() {

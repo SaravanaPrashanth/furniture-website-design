@@ -9,7 +9,7 @@ export const FAQS: Faq[] = [
     id: 'wood-types',
     question: 'What wood types do you use?',
     answer:
-      'We use only premium natural wood — primarily Kerala teak, sheesham, and select hardwoods. We never use MDF, compressed board, or any form of engineered wood. Every piece is built from solid timber sourced for grain quality and structural integrity.',
+      'We use only premium natural wood - primarily Kerala teak, sheesham, and select hardwoods. We never use MDF, compressed board, or any form of engineered wood. Every piece is built from solid timber sourced for grain quality and structural integrity.',
   },
   {
     id: 'custom-sizes',
@@ -27,13 +27,13 @@ export const FAQS: Faq[] = [
     id: 'showroom-visit',
     question: 'Can I visit your showroom before ordering?',
     answer:
-      'Absolutely. Our workshop and showroom are at the same location — No.1 South VP Colony, Medavakkam Tank Road, Ayanavaram, Chennai 600 023. We are open Monday to Friday, 10 AM to 9 PM, and Saturday & Sunday, 11 AM to 7 PM. You can see the wood quality, ongoing pieces, and our craftsmanship firsthand.',
+      'Absolutely. Our workshop and showroom are at the same location - No.1 South VP Colony, Medavakkam Tank Road, Ayanavaram, Chennai 600 023. We are open Monday to Friday, 10 AM to 9 PM, and Saturday & Sunday, 11 AM to 7 PM. You can see the wood quality, ongoing pieces, and our craftsmanship firsthand.',
   },
   {
     id: 'how-to-order',
     question: 'How do I place an order?',
     answer:
-      'The easiest way is to WhatsApp us at +91 97100 25248. Share your requirements — piece type, dimensions, wood preference, and any reference images. We will confirm specifications, estimated timeline, and final pricing within 24 hours.',
+      'The easiest way is to WhatsApp us at +91 97100 25248. Share your requirements - piece type, dimensions, wood preference, and any reference images. We will confirm specifications, estimated timeline, and final pricing within 24 hours.',
   },
 ]
 

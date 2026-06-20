@@ -2,7 +2,7 @@ const TRUST_ITEMS = [
   '25+ Years of Craftsmanship',
   'Kerala Teak Wood',
   '100% Solid Wood',
-  'No MDF — Ever',
+  'No MDF - Ever',
   'Custom Sizes Available',
   'Pan-Chennai Delivery',
   'Factory-Direct Pricing',
@@ -11,7 +11,7 @@ const TRUST_ITEMS = [
 
 /**
  * Infinite-scroll marquee trust strip between the hero and products sections.
- * Pure CSS animation — no JavaScript required.
+ * Pure CSS animation - no JavaScript required.
  */
 export function TrustBar() {
   /* Duplicate items to create seamless infinite loop */

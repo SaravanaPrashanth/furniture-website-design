@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import { Separator } from '@/components/ui/separator'
 
 const NAV_LINKS = [
@@ -8,7 +9,7 @@ const NAV_LINKS = [
 ]
 
 /**
- * Site footer — 3-column desktop layout, stacked on mobile.
+ * Site footer - 3-column desktop layout, stacked on mobile.
  * Dynamic copyright year. No social links per brief.
  */
 export function Footer() {
@@ -19,28 +20,38 @@ export function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10 md:gap-8">
 
-          {/* Column 1 — Brand */}
+          {/* Column 1 - Brand */}
           <div className="flex flex-col gap-4">
             <a
               href="#top"
-              aria-label="Sri Vetrivel Furnitures — back to top"
-              className="flex flex-col leading-tight w-fit"
+              aria-label="Sri Vetrivel Furnitures - back to top"
+              className="flex items-start gap-2 leading-tight w-fit"
             >
-              <span className="font-serif text-foreground text-xl font-bold">
-                Sri Vetrivel
-              </span>
-              <span className="font-sans text-accent text-[10px] tracking-[0.22em] uppercase font-semibold">
-                Furnitures
-              </span>
+              <div className="relative w-8 h-8 mt-0.5 flex-shrink-0">
+                <Image
+                  src="/images/murugan-spear.png"
+                  alt="Lord Murugan"
+                  fill
+                  className="object-contain opacity-60 hover:opacity-80 transition-opacity duration-300"
+                />
+              </div>
+              <div className="flex flex-col">
+                <span className="font-serif text-foreground text-xl font-bold">
+                  Sri Vetrivel
+                </span>
+                <span className="font-sans text-accent text-[10px] tracking-[0.22em] uppercase font-semibold">
+                  Furnitures
+                </span>
+              </div>
             </a>
             <p className="font-sans text-muted-foreground text-sm leading-relaxed max-w-xs">
               Handcrafting solid wood furniture from our Ayanavaram workshop
-              since 2001. Kerala teak and premium hardwoods — no shortcuts,
+              since 2001. Kerala teak and premium hardwoods - no shortcuts,
               no compromises.
             </p>
           </div>
 
-          {/* Column 2 — Quick Links */}
+          {/* Column 2 - Quick Links */}
           <div className="flex flex-col gap-4">
             <h3 className="font-sans font-semibold text-foreground text-sm tracking-wide uppercase">
               Quick Links
@@ -61,7 +72,7 @@ export function Footer() {
             </nav>
           </div>
 
-          {/* Column 3 — Contact */}
+          {/* Column 3 - Contact */}
           <div className="flex flex-col gap-4">
             <h3 className="font-sans font-semibold text-foreground text-sm tracking-wide uppercase">
               Contact
