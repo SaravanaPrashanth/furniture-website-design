@@ -27,7 +27,7 @@ export function Footer() {
               aria-label="Sri Vetrivel Furnitures - back to top"
               className="flex items-start gap-2 leading-tight w-fit"
             >
-              <div className="relative w-8 h-8 mt-0.5 flex-shrink-0">
+              <div className="relative w-7 h-7 sm:w-8 sm:h-8 mt-0.5 flex-shrink-0">
                 <Image
                   src="/images/murugan-spear.png"
                   alt="Lord Murugan"

@@ -49,6 +49,10 @@ export function HeroSection() {
         />
         {/* Dark overlay for text legibility */}
         <div className="absolute inset-0 bg-background/70" />
+        {/* Radial gradient: warm center, cool edges for depth */}
+        <div className="absolute inset-0 bg-radial-gradient" style={{
+          background: 'radial-gradient(circle at 60% 40%, rgba(139, 94, 60, 0.15) 0%, rgba(20, 18, 16, 0.7) 70%)',
+        }} />
         {/* Subtle vignette from bottom */}
         <div className="absolute inset-x-0 bottom-0 h-40 bg-gradient-to-t from-background to-transparent" />
       </div>

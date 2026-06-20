@@ -20,7 +20,7 @@ export function TrustBar() {
   return (
     <div
       aria-hidden="true"
-      className="overflow-hidden border-y border-border bg-surface py-4"
+      className="overflow-hidden border-y border-accent/20 bg-surface/40 backdrop-blur-sm py-5 shadow-inner"
     >
       <div className="flex animate-marquee whitespace-nowrap gap-0">
         {doubled.map((item, i) => (
